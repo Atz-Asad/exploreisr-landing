@@ -147,17 +147,16 @@ h6{
 }
 
 .section_hero {
-    background-image: url(/assets/images/hero-bg.jpg);
+    background: url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 1050px;
     overflow: hidden;
     position: relative;
     @media (max-width: 991px) { 
        height: 750px;
     }
-    
     .hero-content{
         padding: 0 30px;
         padding-top: 320px;
@@ -473,7 +472,7 @@ Inner Page Demo
         height: 520px;
         width: 100%;
         z-index: -1;
-        background: url(/assets/images/footer-bg.jpg) no-repeat scroll center center / cover;
+        background: url(../images/footer-bg.jpg) no-repeat scroll center center / cover;
          @media (max-width: 768px) { 
             height: 350px;
         }
