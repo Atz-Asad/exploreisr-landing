@@ -612,32 +612,6 @@
         })
     };
 
-    // mini-card-slider start
-    if ($('.mini-card-slider').length > 0) {
-        var swiper = new Swiper(".mini-card-slider", {
-            spaceBetween: 10,
-            slidesPerView: 2,
-            freeMode: true,
-            loop: true,
-            // effect: "fade",
-            watchSlidesProgress: true,
-            navigation: {
-                nextEl: ".mini-card-button-next",
-                prevEl: ".mini-card-button-prev",
-            },
-            breakpoints: {
-                320: {
-                    slidesPerView: 1,
-                },
-                
-                767: {
-                    slidesPerView: 2,
-                },     
-               
-            },
-        });
-    };
-
     // wow js active
     wowfunction();
     function wowfunction() {
@@ -686,7 +660,6 @@
     }
     // --------- INDEX-1 BANNER TITLE ANIMATION ----------
 
-    
 
     // odometer CountDown
     if ($('.odometer').length > 0) {
@@ -839,17 +812,6 @@
         });
     }
     
-
-
-    // aos install
-    // AOS.init();
-
-
-    // off canvas open body scroll off
-    
-
-
-
 })(jQuery);
 
 document.addEventListener("DOMContentLoaded", function () {

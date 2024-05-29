@@ -626,67 +626,67 @@
     }
 }
 
-// mini card slider
-.mini-card-slider{
-    .mini-card-button-prev,
-    .mini-card-button-next{
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-    .mini-card-button-prev{
-        top: 20px;
-        position: absolute;
-        z-index: 1;
-        left: 140px;
-        position: absolute;
-        @include media-breakpoint-down(xxl) {
-            left: 130px;
-        }
-        @include media-breakpoint-down(xl) {
-            left: 137px;
-        }
-        @include media-breakpoint-down(md) {
-            left: 128px;
-        }
-    }
-    .mini-card-button-next{
-        top: 20px;
-        position: absolute;
-        z-index: 1;
-        right: 230px;
-        @include media-breakpoint-down(xxl) {
-            right: 176px;
-        }
-        @include media-breakpoint-down(xl) {
-            right: 270px;
-        }
-        @include media-breakpoint-down(lg) {
-            right: 154px;
-        }
-        @include media-breakpoint-down(md) {
-            right: 122px;
-        }
-        @include media-breakpoint-down(sm) {
-            right: 122px;
-        }
-        @media (max-width: 575px) { 
-            right: 60px;
-        }
-        @media (max-width: 480px) { 
-            right: 50px;
-        }
-    }
-    .card-style-10{
+// // mini card slider
+// .mini-card-slider{
+//     .mini-card-button-prev,
+//     .mini-card-button-next{
+//         display: flex;
+//         align-items: center;
+//         gap: 6px;
+//     }
+//     .mini-card-button-prev{
+//         top: 20px;
+//         position: absolute;
+//         z-index: 1;
+//         left: 140px;
+//         position: absolute;
+//         @include media-breakpoint-down(xxl) {
+//             left: 130px;
+//         }
+//         @include media-breakpoint-down(xl) {
+//             left: 137px;
+//         }
+//         @include media-breakpoint-down(md) {
+//             left: 128px;
+//         }
+//     }
+//     .mini-card-button-next{
+//         top: 20px;
+//         position: absolute;
+//         z-index: 1;
+//         right: 230px;
+//         @include media-breakpoint-down(xxl) {
+//             right: 176px;
+//         }
+//         @include media-breakpoint-down(xl) {
+//             right: 270px;
+//         }
+//         @include media-breakpoint-down(lg) {
+//             right: 154px;
+//         }
+//         @include media-breakpoint-down(md) {
+//             right: 122px;
+//         }
+//         @include media-breakpoint-down(sm) {
+//             right: 122px;
+//         }
+//         @media (max-width: 575px) { 
+//             right: 60px;
+//         }
+//         @media (max-width: 480px) { 
+//             right: 50px;
+//         }
+//     }
+//     .card-style-10{
         
-        .card-title {
-            @include media-breakpoint-down(xxl) {
-                font-size: 16px;
+//         .card-title {
+//             @include media-breakpoint-down(xxl) {
+//                 font-size: 16px;
 
-            }
-        }
-    }
-}
+//             }
+//         }
+//     }
+// }
 
 //Comment from
 .comment-from{
