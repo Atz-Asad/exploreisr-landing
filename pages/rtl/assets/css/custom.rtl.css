@@ -1,0 +1,13 @@
+body {
+    direction: rtl;
+}
+
+.btn-submit {
+	right: 2px;
+    left: inherit;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+	content: "\f104";
+	font-family: "Font Awesome 6 Pro";
+}
